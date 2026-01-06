@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envases Axarquía | Fabricación de Embalajes en Vélez-Málaga</title>
-    <meta name="description" content="Especialistas en la fabricación de envases y embalajes de papel y cartón en Vélez-Málaga. Soluciones industriales a medida.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Envases Axarquía | Embalajes en Vélez-Málaga</title>
+    <meta name="description" content="Fabricación de envases de papel y cartón en Vélez-Málaga.">
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,9 +19,8 @@
     <header>
         <nav class="container">
             <div class="logo">Envases <span>Axarquía</span></div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -30,83 +29,54 @@
 
     <section id="inicio" class="hero">
         <div class="container">
-            <h1>Soluciones de embalaje en <br><span>cartón y papel</span></h1>
-            <p>Fabricación industrial a medida en el corazón de la Axarquía. Calidad, resistencia y compromiso sostenible.</p>
+            <h1>Embalajes en <br><span>cartón y papel</span></h1>
+            <p>Fabricación industrial a medida en Vélez-Málaga. Calidad y resistencia garantizada.</p>
             <div class="hero-btns">
-                <a href="#contacto" class="btn-primary">Solicitar Presupuesto</a>
+                <a href="#contacto" class="btn-primary">Presupuesto</a>
                 <a href="https://wa.me/34TU_TELEFONO" class="btn-secondary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
         </div>
     </section>
 
-    <section id="nosotros" class="about container">
-        <div class="about-grid">
-            <div class="about-text">
-                <h2>Sobre Nosotros</h2>
-                <p>En <strong>Envases Axarquía</strong>, transformamos el papel y el cartón en soluciones logísticas eficientes. Ubicados en Vélez-Málaga, contamos con tecnología avanzada para cubrir las necesidades de la industria agrícola y comercial de la zona.</p>
-                <p>Nuestra misión es ofrecer embalajes que protejan sus productos mientras cuidamos el medio ambiente.</p>
+    <section id="servicios" class="services container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-box"></i>
+                <h3>Envases de Cartón</h3>
+                <p>Cajas personalizadas para agricultura e industria.</p>
             </div>
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1000&auto=format&fit=crop" alt="Maquinaria de embalaje industrial">
-            </div>
-        </div>
-    </section>
-
-    <section id="servicios" class="services">
-        <div class="container">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fas fa-box"></i>
-                    <h3>Envases de Cartón</h3>
-                    <p>Cajas personalizadas para todo tipo de productos industriales y agrícolas.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-scroll"></i>
-                    <h3>Embalajes de Papel</h3>
-                    <p>Soluciones ligeras y sostenibles para protección y presentación comercial.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-industry"></i>
-                    <h3>Soluciones Industriales</h3>
-                    <p>Diseños estructurales a medida para grandes volúmenes y logística pesada.</p>
-                </div>
+            <div class="service-card">
+                <i class="fas fa-scroll"></i>
+                <h3>Embalajes de Papel</h3>
+                <p>Soluciones sostenibles para protección comercial.</p>
             </div>
         </div>
     </section>
 
     <section id="contacto" class="contact container">
+        <h2 class="section-title">Contacto Directo</h2>
         <div class="contact-grid">
             <div class="contact-form-box">
-                <h2>Contacto Directo</h2>
                 <form action="TU_URL_GETFORM" method="POST">
-                    <input type="text" name="name" placeholder="Nombre completo" required>
-                    <input type="email" name="email" placeholder="Correo electrónico" required>
-                    <input type="tel" name="phone" placeholder="Teléfono">
-                    <textarea name="message" rows="5" placeholder="Cuéntenos qué necesita (medidas, cantidades...)" required></textarea>
-                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    <input type="text" name="name" placeholder="Tu nombre" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="4" placeholder="¿Qué necesitas?" required></textarea>
+                    <button type="submit" class="btn-primary full-width">Enviar Mensaje</button>
                 </form>
             </div>
+            
             <div class="contact-info">
-                <h3>Ubicación y Datos</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Calle Juan Gris 12, 29700 Vélez-Málaga, Málaga</p>
-                <p><i class="fas fa-phone"></i> +34 [Tu Teléfono]</p>
-                <p><i class="fas fa-envelope"></i> info@envasesaxarquia.com</p>
-                
+                <p><i class="fas fa-map-marker-alt"></i> Calle Juan Gris 12, Vélez-Málaga</p>
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.448555949576!2d-4.116666!3d36.783333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7243c330f6a311%3A0x6b4c100000000000!2sCalle%20Juan%20Gris%2C%2012%2C%2029700%20V%C3%A9lez-M%C3%A1laga%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="http://googleusercontent.com/maps.google.com/3" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 Envases Axarquía. Fabricantes de confianza en Vélez-Málaga.</p>
-            <div class="footer-links">
-                <a href="#">Aviso Legal</a> | <a href="#">Privacidad</a>
-            </div>
-        </div>
+        <p>© 2026 Envases Axarquía.</p>
     </footer>
 
 </body>
